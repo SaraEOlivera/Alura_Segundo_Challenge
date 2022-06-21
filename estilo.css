@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1a0321;
+    background-size: cover;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.btn-neon {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-neon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 10ms;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.bloque-juego{
+    display: flex;
+    align-content: space-between;
+}
+
+#imagen {
+    width: 90%;
+    height: 500px;
+    opacity: 0.5;
+    margin-right: 155px;
+
+}
+
+#palabraParaAdivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    width: 30px;
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 6px;
+    display: inline-block; /*para el ancho*/
+}
+
+#jugar, #desistir{
+    width: 170px;
+    height: 40px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 9px;
+    letter-spacing: 1px;
+
+}
+
+#jugar:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 10ms;
+    font-weight: bold;
+    border: none;
+}
+
+#desistir:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 10ms;
+    font-weight: bold;
+    border: none;
+}
+
+#abecedario {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+#abecedario button {
+    width: 50px;
+    padding: 6px 0;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#letras:hover{
+    background: #af4fcc;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 10ms;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#caja_1{
+    position: absolute;
+    top: 80px;
+}
+.input-texto {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 45px;
+    background-color: #1a0321;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 22px;
+/*     text-align: center;
+ */}
+
+.input-texto:focus{
+    border: 3px solid #a945c7;
+    box-shadow: 0 0 7px;
+    color: rgb(114, 108, 108);
+}
+
+.advertencia {
+    margin-left: 54px;
+    color: rgb(114, 108, 108);
+    font-size: 12px;
+}
+
+#caja_3{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+#bloque-footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.p-footer{
+    color: rgb(114, 108, 108);
+} 
